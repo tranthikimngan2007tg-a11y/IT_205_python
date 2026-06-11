@@ -58,7 +58,7 @@ def update_quantity(inventory_list):
             quantity_update = validate_input("Nhập số lượng mới: ", "quantity")
             index["quantity"] = quantity_update
             print("Cập nhật số lượng thành công!")
-            return
+            break
     else:
         print(f"Không tìm thấy hàng hóa có mã [{id_update}]")
         
